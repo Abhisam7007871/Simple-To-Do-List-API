@@ -3,10 +3,12 @@ package com.avhsek.todo_list_api.service;
 import com.avhsek.todo_list_api.model.Task;
 import com.avhsek.todo_list_api.repository.TaskRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class TaskService {
 
     @Autowired
