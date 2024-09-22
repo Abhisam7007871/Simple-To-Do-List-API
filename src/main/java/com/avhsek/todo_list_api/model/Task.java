@@ -15,17 +15,12 @@ public class Task {
     private String description;
     private boolean completed;
 
-    public Task(String title, String description, boolean completed){
-        this.title = title;
-        this.description = description;
-        this.completed = completed;
-    }
-
-    // Getter and Setter
-    public Long getId(){
+    // Getters and Setters
+    public Long getId() {
         return id;
     }
-    public void setId(Long id){
+
+    public void setId(Long id) {
         this.id = id;
     }
 
